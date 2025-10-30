@@ -8,12 +8,14 @@ Objectives
 •	Understand which factors most strongly influence revenue.
 •	Build a Streamlit app for interactive predictions and insights visualization.
 •	Provide data-driven recommendations for content strategy optimization and revenue forecasting.
-•	Dataset Information
+
+Dataset Information
 Format: CSV
 Size: ~122,000 rows
 Source: Synthetic (for educational purposes)
 Target Variable: ad_revenue_usd
-•	Columns Overview
+
+Columns Overview
 Column	Description
 video_id	Unique video identifier
 date	Upload/reporting date
@@ -35,6 +37,7 @@ Key Analyses
 •	Correlation heatmap to identify relationships.
 •	Boxplots and scatterplots for detecting outliers.
 •	Category-wise revenue comparison (e.g., revenue by category, country, or device).
+
 Model Building
 Models to Experiment With
 1.	Linear Regression
@@ -48,17 +51,20 @@ Workflow
 3.	Evaluate performance using:
 o	R² Score
 o	RMSE (Root Mean Squared Error)
+
 Insights and Interpretation
 •	Views and Watch Time are the strongest predictors of revenue.
 •	Engagement Rate positively correlates with higher ad revenue.
 •	Certain categories (like Technology, Entertainment) yield better monetization rates.
 •	Country and device types also affect revenue due to ad pricing differences
+
 Streamlit Web App
 Features
 •	Input fields for user metrics (views, likes, comments, etc.).
 •	Predicts expected ad_revenue_usd using trained model.
 •	Displays model insights and feature importance.
 •	Includes basic EDA visualizations.
+
 Example Layout
 |---------------------------------------|
 | YouTube Ad Revenue Predictor          |
