@@ -28,7 +28,7 @@ model_dict = {"Linear Regression": lr, "Ridge Regression": ridge, "Lasso Regress
 
 # YouTube API Setup
 
-API_KEY = "AIzaSyB_mSqjMLM98CoDhhzu1UOzXXq_o0DCSnQ"
+API_KEY = "your API"
 
 class categoryMap:
     category = {
@@ -227,4 +227,5 @@ elif select == "ABOUT":
     try:
             st.image(Image.open("image/youtube-analytics.png"), width=600)
     except:
+
             st.info("Logo image not found.")
